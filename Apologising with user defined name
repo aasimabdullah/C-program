@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char name[50];
+    int i;
+    
+    printf("Please enter your name: ");
+    scanf("%s", name);
+    
+    for (i = 0; i < 100; i++) {
+        printf("I AM SORRY, %s\n", name);
+    }
+    
+    return 0;
+}
